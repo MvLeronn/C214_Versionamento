@@ -15,6 +15,6 @@ public class Main {
         System.out.println("Transposta de A:");
         C.print(5, 2);
 
-        System.out.println("Determinante: " + A.det());
+        System.out.println("Determinante: " + A.det();
     }
 }
