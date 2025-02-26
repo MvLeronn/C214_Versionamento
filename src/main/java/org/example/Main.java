@@ -4,7 +4,7 @@ import Jama.Matrix;
 public class Main {
     public static void main(String[] args) {
         double[][] array = {{4, 7}, {3, 4}};
-        Matrix A = new Matrix(array);
+        Matrix B = new Matrix(array);
 
         Matrix B = A.inverse();  // Inversa de A
         Matrix C = B.transpose();  // Transposta de A
