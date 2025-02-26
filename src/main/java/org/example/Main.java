@@ -7,13 +7,13 @@ public class Main {
         Matrix A = new Matrix(array);
 
         Matrix B = A.inverse();  // Inversa de A
-        Matrix C = A.inverse();  // Transposta de A
+        Matrix C = B.transpose();  // Transposta de A
 
         System.out.println("Inversa de A:");
-        B.print(10, 2);
+        B.print(5, 2);
 
-        System.out.println("Nada de A:");
-        C.print(10, 2);
+        System.out.println("Transposta de B:");
+        C.print(5, 2);
 
         System.out.println("Determinante: " + A.det());
     }
