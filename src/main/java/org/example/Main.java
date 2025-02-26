@@ -7,7 +7,7 @@ public class Main {
         Matrix A = new Matrix(array);
 
         Matrix B = A.inverse();  // Inversa de A
-        Matrix C = A.transpose();  // Transposta de A
+        Matrix C = A.inverse();  // Transposta de A
 
         System.out.println("Inversa de A:");
         B.print(5, 2);
